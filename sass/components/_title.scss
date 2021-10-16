@@ -1,0 +1,29 @@
+/* Add blue color for style focus */
+.logo:focus {
+  color: #080545;
+}
+/* Add ps-style focus for item1 */
+.site-nav .item-1 a:focus {
+  color: #2196f3;
+}
+.site-nav .item-1 .link:hover,
+.site-nav .item-1 .link:active {
+  color: #2196f3;
+  
+}
+.site-nav .link:hover,
+.site-nav .link:active {
+  color: #2196f3; 
+}
+.site-nav .link:focus {
+  color: #080545;
+}
+.list .list-tel:hover {
+color: #2196F3;
+  color: #080545;
+
+}
+.list .e-mail:hover {
+color: #2196F3;  
+  color: #080545;
+}

@@ -1,0 +1,97 @@
+/* Start flexbox model */
+*,
+*::before,                               
+*::after {            
+  box-sizing: inherit;
+  }                             
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+h3 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.footer-block > a,
+.footer-block .info > p {
+margin: 0;
+padding: 0px;
+}
+
+body > h1,
+h2,
+h3 {
+  text-align: center;
+  font-size: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.main-content h2 {
+  text-align: center;
+  font-size: 2.2;
+}
+.main-content h3 {
+  font-size: 2;
+}
+/* Helping items */
+ul {
+  list-style: none;
+}
+a,
+button {
+  text-decoration: none;
+}
+
+header {
+  letter-spacing: 0.02em;
+}
+main {
+  letter-spacing: 0.06em;
+}
+footer {
+  letter-spacing: 0.03em;
+}
+.titles .btn-option::-moz-focus-inner,
+.titles .btn-option::-moz-focus-outer {
+  border: 0;
+} 
+.basement .info .no-italic {
+  font-style: normal;
+}
+*no-italic {
+  font-style: normal;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  }

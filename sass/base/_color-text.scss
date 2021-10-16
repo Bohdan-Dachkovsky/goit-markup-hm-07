@@ -1,0 +1,18 @@
+/* Шрифт для логотипа */
+.logo .bluecolor {
+color: #2196F3;
+}
+/* Add style focus for adittional block */
+.list-tel .tittle:focus,
+.e-mail:focus {
+  color: #080545;
+}
+
+/*Add a ps-style focus for adittional block */
+.aside .tel:focus {
+  color: #2196f3;
+}
+
+.section .activity-list .item-1 {
+  color: var(--primery-item-color);
+}

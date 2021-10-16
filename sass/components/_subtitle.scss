@@ -1,0 +1,48 @@
+.section .subtitle-1 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: #212121;
+}
+.section .subtitle-2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+}
+/* hidden h2 */
+.sub-title {
+  visibility: hidden;
+}
+
+
+.subtitle-1 {
+text-align: center;
+padding-bottom: 50px;
+}
+.subtitle-2{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.section .sub-header {
+  visibility: hidden;
+}
+
+
+.sub-nav-unit {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+ 
+}
+.sub-iteam-unit {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  padding-left: 160px;
+}

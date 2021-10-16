@@ -1,0 +1,34 @@
+/* The beginning of the main content */
+
+.caption h1,
+h2,
+h3 {
+  color: #212121;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* letter-spacing */
+.caption h2,
+h3, h4 {
+  letter-spacing: 0.03em;
+}
+h4 {
+font-family: Roboto, sans-serif;  
+font-size: 36px;
+font-weight: 700;
+text-align: center;
+line-height: 1.17;
+font-style: normal;
+}
+.caption p {
+  letter-spacing: 0.03em;
+}
+/* "List" */
+.activity-list .items p {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  padding-right: 30px;
+}

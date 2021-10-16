@@ -1,0 +1,107 @@
+/*Color page*/
+.wrapper {
+   background-image: linear-gradient(
+  to right,
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)),
+  url("../images/img-overlay.svg");
+ 
+}
+ img {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+ }
+ /* Add hover, focus and active(dark/blue color) for nav unit */
+
+ .sub-nav .title .title-2:focus,
+.sub-nav .title .title-2:hover,
+.title .title-2:active,
+.title .title-1:focus,
+.title .title-1:hover,
+.title .title-1:active {
+  color: #2196f3;
+}
+.item .e-mail:hover,
+.item .e-mail:focus {
+  color: #2196f3;
+ 
+}
+.item .tel:hover,
+.item .tel:focus {
+  color: #2196f3;
+ 
+}
+
+/* Add backlights */
+.site-nav .current:after  {
+  position: relative;
+  top: 25px;
+  color: #2196F3;
+  cursor: pointer;
+  max-width: 48px;
+  min-height: 4px;
+  margin-left: auto;
+  text-decoration: underline;
+  bottom: 0;
+  content: '';
+  background-color:rgba(33, 150, 243, 0.9);
+  display: flex;
+  align-items: flex-end;
+}
+
+
+/* Portfolio hover */
+.sub-nav  .current:after {
+  position: relative;
+  top: 32px;
+  color: #2196F3;
+  background-color: rgba(33, 150, 243, 0.9);
+  cursor: pointer;
+  max-width: 78px;
+  min-height: 4px;
+  margin-left: auto;
+  text-decoration: underline;
+  content: '';
+  display: flex;
+  align-items: flex-end;
+}
+
+.imagine-container{
+  position: relative;
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  text-decoration: none;
+}
+ .hover-text {
+  position: absolute;
+  font-family: sans-serif;
+  color: white;
+  width: 370px;
+  height: 294px;
+  }
+  .hover-text a:hover {
+  opacity: 1; 
+ }   
+.hover-text a {
+display: flex;
+position: absolute;
+margin-top: 50px;
+justify-content: space-between;
+font-family: Roboto, sans-serif;
+font-size: 18px;
+font-weight: 400;
+padding-top: 40px;
+padding-bottom: 40px;
+color: #ffffff;
+opacity: 0;
+width: 322px;
+height: 168px;
+}
+.hover-text:hover {
+  background: rgba(33, 150, 243, 0.9); 
+  opacity: 1;
+ }
+

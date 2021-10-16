@@ -1,0 +1,250 @@
+.logo {
+  color: black;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
+}
+.site-nav .item-1 > a {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  transition-timing-function: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+/* Шрифт навигации */
+.site-nav a {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+/* Дополнительная навигация */
+.e-mail {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  transition-property: background-color;
+  transition-duration: 250ms ;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 500ms;
+  
+}
+.tittle {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--basic-bg-color);
+}
+.list .list-tel {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
+  line-height: 1.14;                      
+  letter-spacing: 0.02em;
+  transition-property: background-color;
+  transition-duration: 250ms ;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 500ms;
+  
+
+}
+ .list .e-mail {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+   
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  transition-property: background-color;
+  transition-duration: 250ms ;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 500ms;
+
+}
+
+
+.bussines-box {
+ background-color: #F5F4FA;
+  padding-bottom: 94px;
+
+}
+.head-container {
+  display: flex;
+}
+.first-site-unit {
+  display: flex;
+  justify-content: flex-end;
+}
+.second-site-unit {
+  display: flex;
+  flex-direction: row;
+  
+  align-items: baseline;
+  text-align: center;
+}
+.nav-container  {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+  text-align: center;
+}
+.box {
+ display: flex; 
+}
+
+/* Margin for header */
+.nav-container .page-for-logo {
+  padding-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  vertical-align: middle;
+}
+.link-1 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  padding-left: 50px;
+  transition-property: background-color;
+  transition-duration: 250ms ;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 500ms;
+
+}
+
+.item-1 { padding-right: 50px;}
+.link {
+ padding-top: 32px;
+ padding-bottom: 32px;
+ padding-right: 50px;
+ padding-left: 50px;
+}
+.second-site-unit .contact {
+ padding-left: 159px;
+ padding-right: 50px;
+ padding-top: 32px;
+ vertical-align: middle;
+ transition-property: background-color;
+ transition-duration: 250ms ;
+ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ animation-delay: 500ms;
+ display: flex;
+ flex-direction: row-reverse;
+
+}
+.second-site-unit > .contact-1 {
+ padding-top: 32px;
+ padding-left: 0; 
+ vertical-align: middle;
+ transition-property: background-color;
+ transition-duration: 250ms ;
+ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ animation-delay: 500ms;
+
+}
+
+/* Site header begins */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #404040;
+}
+.logo .half-1 {
+  color: #2196f3;
+}
+/* Pages color */
+.title .title-1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+  transition-property: background-color;
+  transition-duration: 250ms ;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 500ms;
+}
+
+
+.sub-nav .title .title-2 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color:  #2196f3;
+}
+.item a {
+  font-family: Roboto;
+  transition-property: background-color;
+  transition-duration: 250ms ;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 500ms;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+}
+
+.net-menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-direction: row;
+  align-items: baseline;
+  text-align: center;
+  align-content: center;
+}
+/* styling */
+
+/* Add mail and phone icon */
+.e-mail {
+position: relative;
+
+}
+.list-tel {
+position: relative;
+
+}
+.icon-mail {
+position: absolute;
+top: 0;
+left: -22px;
+margin: 0;
+padding: 0;
+width: 12px;
+height: 16px;
+color: #2196F3;
+}
+.icon-phone {
+top: 0;
+left: -20px;
+margin: 0;
+padding: 0;
+position: absolute;
+width: 10px;
+height: 16px;
+fill: #2196f3;
+}
+
